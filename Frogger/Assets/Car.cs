@@ -6,9 +6,8 @@ public class Car : MonoBehaviour
 {
     public Rigidbody2D rb;
 
-    public float minSpeed = 8f;
-    public float maxSpeed = 12f;
-
+    public float minSpeed = 4f;
+    public float maxSpeed = 6f;
     float speed = 1f;
 
     private void Start()
@@ -20,5 +19,6 @@ public class Car : MonoBehaviour
     {
         Vector2 forward = new Vector2(transform.right.x, transform.right.y);
         rb.MovePosition(rb.position + forward * Time.fixedDeltaTime * speed);
+        Destroy(rb.gameObject, 12);
     }
 }

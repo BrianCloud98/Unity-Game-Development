@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Frog : MonoBehaviour
 {
-        public Rigidbody2D rb;
+    public Rigidbody2D rb;
 
     void Update()
     {
@@ -22,6 +23,15 @@ public class Frog : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.S))
         {
             rb.MovePosition(rb.position + Vector2.down);
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag == "Car")
+        {
+            Debug.Log("WE LOST!!");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
     }
 }

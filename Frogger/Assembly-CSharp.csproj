@@ -57,10 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Frog.cs" />
-    <Compile Include="Assets\Car.cs" />
     <Compile Include="Assets\CarSpawner.cs" />
+    <Compile Include="Assets\Car.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Read Me.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

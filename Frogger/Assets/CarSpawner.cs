@@ -2,22 +2,26 @@ using UnityEngine;
 
 public class CarSpawner : MonoBehaviour
 {
-    public float spawnDelay = .3f;
+    public GameObject[] cars;
     public GameObject car;
-    float nextTimeToSpawn = 0f;
+    public Transform[] spawnPoints;
+
+    private void Start()
+    {
+        InvokeRepeating("SpawnCar", 0f, 2f);
+    }
 
     private void Update()
     {
         
-        if (nextTimeToSpawn <= Time.time)
-        {
-            SpawnCar();
-            nextTimeToSpawn = Time.time + spawnDelay;
-        }
     }
 
     void SpawnCar()
     {
-        Instantiate(car);
+        car = cars[Random.Range(0, cars.Length)];
+        int randomIndex = Random.Range(0, spawnPoints.Length);
+        Transform spawnPoint = spawnPoints[randomIndex];
+
+        Instantiate(car, spawnPoint.position, spawnPoint.rotation);
     }
 }
