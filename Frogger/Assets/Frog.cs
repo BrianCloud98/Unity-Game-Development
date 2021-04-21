@@ -10,19 +10,31 @@ public class Frog : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.D))
         {
-            rb.MovePosition(rb.position + Vector2.right);
+            if (rb.position.x < 15)
+            {
+                rb.MovePosition(rb.position + Vector2.right);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.A))
         {
-            rb.MovePosition(rb.position + Vector2.left);
+            if (rb.position.x > -15)
+            {
+                rb.MovePosition(rb.position + Vector2.left);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.W))
         {
-            rb.MovePosition(rb.position + Vector2.up);
+            if (rb.position.y < 6.15)
+            {
+                rb.MovePosition(rb.position + Vector2.up);
+            }
         }
         else if (Input.GetKeyDown(KeyCode.S))
         {
-            rb.MovePosition(rb.position + Vector2.down);
+            if (rb.position.y > -6.15)
+            {
+                rb.MovePosition(rb.position + Vector2.down);
+            }
         }
     }
 

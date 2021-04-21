@@ -3,7 +3,7 @@ using UnityEngine;
 public class CoinSpawner : MonoBehaviour
 {
     public Transform[] spawnPoints;
-    public GameObject coin;
+    public Coin coin;
 
     private void Start()
     {

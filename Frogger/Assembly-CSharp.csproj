@@ -59,9 +59,9 @@
     <Compile Include="Assets\Frog.cs" />
     <Compile Include="Assets\CarSpawner.cs" />
     <Compile Include="Assets\EndGoal.cs" />
-    <Compile Include="Assets\Car.cs" />
     <Compile Include="Assets\CoinSpawner.cs" />
     <Compile Include="Assets\Coin.cs" />
+    <Compile Include="Assets\Car.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Read Me.txt" />
