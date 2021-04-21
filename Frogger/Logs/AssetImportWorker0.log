@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 18363.1500; Version 1909; 64bit' Language: 'en' Physical Memory: 16330 MB
+OS: 'Windows 10 Enterprise LTSC 2019; OS build 17763.1817; Version 1809; 64bit' Language: 'en' Physical Memory: 7989 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,243 +11,40 @@ C:\Program Files\Unity\Hub\Editor\2020.3.4f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Brian/OneDrive/Documents/GitHub/Unity-Game-Development/Frogger
+L:/Repo/Unity-Game-Development/Frogger
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51071
-Successfully changed project path to: C:/Users/Brian/OneDrive/Documents/GitHub/Unity-Game-Development/Frogger
-C:/Users/Brian/OneDrive/Documents/GitHub/Unity-Game-Development/Frogger
+61585
+Successfully changed project path to: L:/Repo/Unity-Game-Development/Frogger
+L:/Repo/Unity-Game-Development/Frogger
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.19 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 269.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Brian/OneDrive/Documents/GitHub/Unity-Game-Development/Frogger/Assets
+[Subsystems] Discovering subsystems at path L:/Repo/Unity-Game-Development/Frogger/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2080 Ti (ID=0x1e07)
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e92)
     Vendor:   
-    VRAM:     11048 MB
-    Driver:   27.21.14.6611
+    VRAM:     3994 MB
+    Driver:   27.20.100.8853
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56304
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002276 seconds.
+Registered in 0.001127 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 38.26 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
+- Completed reload, in  1.097 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001357 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 37.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.983 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.0 MB.
-System memory in use after: 84.9 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2254.
-Total: 2.526400 ms (FindLiveObjects: 0.234100 ms CreateObjectMapping: 0.049300 ms MarkObjects: 2.083900 ms  DeleteObjects: 0.157700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Car.png
-  artifactKey: Guid(1c9cb8e27f0626e4c9253dc415457965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Car.png using Guid(1c9cb8e27f0626e4c9253dc415457965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e50982d8d9c69033bd6940f14996ed') in 0.123720 seconds
-  Import took 0.129338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/GreenCar.png
-  artifactKey: Guid(6e0e2152acf924e438a02e886f36c2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GreenCar.png using Guid(6e0e2152acf924e438a02e886f36c2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523e68249a9e8174f205f562ef2fdbd0') in 0.042773 seconds
-  Import took 0.048102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Mini_van.png
-  artifactKey: Guid(205ddc0f0e07c1d45bba36542f018bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini_van.png using Guid(205ddc0f0e07c1d45bba36542f018bcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51e82a5f62cab44946a4f29c8af1eae') in 0.019010 seconds
-  Import took 0.024611 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Audi.png
-  artifactKey: Guid(15a0232260244bf4596679047d4a22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audi.png using Guid(15a0232260244bf4596679047d4a22af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0066155fc93a94d4d0e44260f6449444') in 0.017056 seconds
-  Import took 0.020660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Truck.prefab
-  artifactKey: Guid(1bfc718212f594243acf6fe182ad0f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Truck.prefab using Guid(1bfc718212f594243acf6fe182ad0f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b1e4125dfae2b89ab563113c5ff7947') in 0.039971 seconds
-  Import took 0.043311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/GreenCar.prefab
-  artifactKey: Guid(87533c34391a32142aad42520faaaf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GreenCar.prefab using Guid(87533c34391a32142aad42520faaaf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b56bfb54ae439b61abc1a81c7646ac') in 0.025893 seconds
-  Import took 0.029717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Taxi.prefab
-  artifactKey: Guid(d6dccea2bb0f7cd46b0221b9a04538f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Taxi.prefab using Guid(d6dccea2bb0f7cd46b0221b9a04538f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18fd2691891a3daa39b52e5545109379') in 0.017030 seconds
-  Import took 0.020338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/OrangeCar.prefab
-  artifactKey: Guid(6f4bee81e103af544a61eb71299a1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OrangeCar.prefab using Guid(6f4bee81e103af544a61eb71299a1bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906af613c45b61b5c043e8d7a88cd196') in 0.022982 seconds
-  Import took 0.026389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Police.png
-  artifactKey: Guid(f7cb88e7918b06347889d9541d0e4eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police.png using Guid(f7cb88e7918b06347889d9541d0e4eda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd476a87a3b5b28b8d4d955e6a4933228') in 0.020921 seconds
-  Import took 0.025294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Divider.psd
-  artifactKey: Guid(e6265c840a7d3a84dbb9a966685c5ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Divider.psd using Guid(e6265c840a7d3a84dbb9a966685c5ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06a8e4749c31625c3b0c14a57f72587') in 0.022122 seconds
-  Import took 0.025511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/dash.png
-  artifactKey: Guid(c32859b2b6daeb64796a77c83614151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/dash.png using Guid(c32859b2b6daeb64796a77c83614151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eafb4b50db20386767d2241dbd91d5fe') in 0.015527 seconds
-  Import took 0.019178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Frog.png
-  artifactKey: Guid(5eb2a3ad7ab3f164d9c55418bb848298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Frog.png using Guid(5eb2a3ad7ab3f164d9c55418bb848298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e2afbf03ed8c43c3cb8e3b6194defe') in 0.019144 seconds
-  Import took 0.022745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/preview_carspritespack.jpg
-  artifactKey: Guid(b8a2e2f37be75b64ba3a2d60e3874735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/preview_carspritespack.jpg using Guid(b8a2e2f37be75b64ba3a2d60e3874735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c7fb63200e4230545531790a2b4b36') in 0.035243 seconds
-  Import took 0.038274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Police.prefab
-  artifactKey: Guid(be6c9c41226f9344584550112d6934ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police.prefab using Guid(be6c9c41226f9344584550112d6934ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd474bde7598b10e9b72aaa083472327') in 0.012719 seconds
-  Import took 0.016261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Road.png
-  artifactKey: Guid(80766aedba3e7fc4897bba2c87ae9b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Road.png using Guid(80766aedba3e7fc4897bba2c87ae9b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84d41e337907e8a2ed524675b3af576') in 0.017444 seconds
-  Import took 0.020928 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Audi.prefab
-  artifactKey: Guid(c6b3105dac595ad499825f6dbd6c4987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Audi.prefab using Guid(c6b3105dac595ad499825f6dbd6c4987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b185c9b55a3eca7e73718255e6a86d3') in 0.013641 seconds
-  Import took 0.017482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Mini_truck.png
-  artifactKey: Guid(bd1156eafd2f6564e86a19a6f80b92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mini_truck.png using Guid(bd1156eafd2f6564e86a19a6f80b92b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cf23e0e5b6f67b784d014308648984') in 0.014604 seconds
-  Import took 0.018309 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Police.gif
-  artifactKey: Guid(0769104743f6a764fab055e8f8ead143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Police.gif using Guid(0769104743f6a764fab055e8f8ead143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f32a936661280c3f3cd3d3764e4923e1') in 0.019783 seconds
-  Import took 0.022943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Ambulance.png
-  artifactKey: Guid(756417d9936253947a07000cf85eb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ambulance.png using Guid(756417d9936253947a07000cf85eb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d6898e0879ba3562b918af7463bf5d') in 0.013237 seconds
-  Import took 0.016354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/taxi.png
-  artifactKey: Guid(dcd66f6452cb6cb4da287ca9e241e6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taxi.png using Guid(dcd66f6452cb6cb4da287ca9e241e6cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112a2ad8ad602aed2f8a1f1b09f3c898') in 0.017303 seconds
-  Import took 0.021191 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Ambulance.png
-  artifactKey: Guid(756417d9936253947a07000cf85eb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ambulance.png using Guid(756417d9936253947a07000cf85eb1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38d6898e0879ba3562b918af7463bf5d') in 0.013158 seconds
-  Import took 0.017219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Black_viper.png
-  artifactKey: Guid(907d0d4facb76b34290c8c57505b2815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Black_viper.png using Guid(907d0d4facb76b34290c8c57505b2815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e35e8cc81b34e88eae8832c03529f03') in 0.015549 seconds
-  Import took 0.018487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/truck.png
-  artifactKey: Guid(236ebb9de6307454282689ae2699f122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/truck.png using Guid(236ebb9de6307454282689ae2699f122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a864ac14c9b0efc24d8bb05413182a2') in 0.014633 seconds
-  Import took 0.018328 seconds .
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.128443 seconds.
