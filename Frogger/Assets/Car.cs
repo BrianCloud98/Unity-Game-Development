@@ -5,15 +5,7 @@ using UnityEngine;
 public class Car : MonoBehaviour
 {
     public Rigidbody2D rb;
-
-    public float minSpeed = 4f;
-    public float maxSpeed = 6f;
-    float speed = 1f;
-
-    private void Start()
-    {
-        speed = Random.Range(minSpeed, maxSpeed);
-    }
+    public float speed = 1f;
 
     void FixedUpdate()
     {
