@@ -15,7 +15,7 @@ public class Coin : MonoBehaviour
     {
         if (collision.tag == "Frog")
         {
-            Debug.Log("1 point!");
+            Score.score += 1;
             Destroy(rb.gameObject);
         }
     }

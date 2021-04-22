@@ -4,6 +4,12 @@ using UnityEngine.SceneManagement;
 public class Frog : MonoBehaviour
 {
     public Rigidbody2D rb;
+    public GameObject gameOverPanel;
+
+    private void Start()
+    {
+        gameOverPanel.SetActive(false);
+    }
 
     void Update()
     {
@@ -42,8 +48,9 @@ public class Frog : MonoBehaviour
     {
         if (collision.tag == "Car")
         {
-            Debug.Log("WE LOST!!");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            gameOverPanel.SetActive(true);
+            Time.timeScale = 0;
         }
     }
+
 }
