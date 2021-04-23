@@ -9,6 +9,7 @@ public class GameOverPanel : MonoBehaviour
     {
         gameOverPanel.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        Score.score = 0;
         Time.timeScale = 1;
     }
 
